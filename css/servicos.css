@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaecff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #121153;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#logo-img img {
+    width: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    background-color: #353079;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#menu a:hover {
+    background-color: #68639e;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#titulo-header {
+    color: rgb(212, 211, 211);
+}
+
+main {
+    padding: 20px;
+}
+
+#servicos {
+    color: #121153;
+    margin-bottom: 20px;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 40px;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #121153;
+    font-weight: bold;
+}
+
+table {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 1px;
+  text-align: left;
+  padding: 5px;
+}
+td {
+  background-color: #12115346;
+}
+th {
+  background-color: #121153;
+  color: rgb(212, 211, 211);
+}
+
+footer {
+    background-color: #121153;
+    color: rgb(212, 211, 211);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+footer img {
+    width: 80px;
+}
