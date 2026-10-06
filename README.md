@@ -6,4 +6,4 @@ objetivo do sistema: Sistema de gestão de agendamentos
 
 CLIENTE: (1:N)
 
-CONSULTA: (1:N)
+PROCEDIMENTO: (1:N)
